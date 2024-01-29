@@ -1,0 +1,217 @@
+
+/* 
+
+
+Nothing to see here.
+
+Move along, move along
+
+
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+:root {
+
+    --yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    
+      
+
+}
+
+@font-face {
+    font-family: figtree-variable;
+    src: url('./assets/fonts/figtree-variableFont_wght.ttf');
+    font-weight: 100;
+}
+
+
+p, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+    width: 100%;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(47, 88%, 63%);
+
+}
+
+
+.card {
+    width: 387px;
+    height: 523px;
+
+    border: 1px solid black;
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.card-head-img {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 21px;
+
+    
+}
+
+.img {
+    border-radius: 10px;
+}
+
+
+.card-content {
+    width: 328px;
+    height: 276px;
+
+    margin: 0 auto;
+
+    
+
+  
+}
+
+/* card content */
+
+
+.tag {
+    margin-top: 23px;
+    background-color: var(--yellow);
+
+    width: 81px;
+    height: 29px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+    font-family: 'figtree', sans-serif;
+    font-weight: 600;
+}
+
+.date {
+    margin-top: 16px;
+    font-family: 'figtree', sans-serif;
+}
+
+.header {
+    margin-top: 20px;
+    font-family: 'figtree', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.txt {
+    
+
+    font-family: 'figtree-variable', sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+
+.avatar-img {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 200px;
+    height: 40px;
+    
+}
+
+.img-avatar-id {
+    height: 35px;
+    width: 35px;
+}
+
+.name {
+    font-family: 'figtree', sans-serif;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+
+/* media queries  */
+
+@media (max-width: 375px) {
+    .card {
+        width: 335px;
+    }
+
+    .card-head-img {
+        width: 278px;
+        height: auto;
+    }
+
+    .img {
+
+        width: 278px;
+
+        display: flex;
+        justify-content: center;
+        margin-left: 60px;
+    }
+
+    .card-content {
+        margin-left: 30px;
+        max-width: 278px;
+    }
+}
+
+/* 
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
